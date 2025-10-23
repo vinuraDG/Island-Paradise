@@ -1,0 +1,119 @@
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+     background-image: url('contact.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     background-color:#6abade;
+}
+
+
+h1{
+    font-family:inherit;
+    font-size: 75px;
+    color:darkcyan;
+    text-align: center;
+    animation: fadeln 2sease-in-out;
+}
+
+#find{
+        width: 200px;
+        overflow: hidden;
+        margin: auto;
+        margin: 10px 0 0 150px;
+        padding: 80px;
+        background-color: white;
+        border-radius: 15px ;
+        
+}
+
+#submit{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: greenyellow;
+    
+
+}
+
+#name{
+    width: 220px;
+    height: 30px;
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    
+
+}
+
+#email{
+    width: 220px;
+    height: 30px;
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    
+
+}
+#phone{
+    width: 220px;
+    height: 30px;
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    
+
+}
+
+footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+#label1{
+    color: black;
+    font-size: 35px;
+   
+}
+
+#label2{
+    color: gray;
+    
+   
+}
+img{
+    width: 50px;
+    height: 50px;
+}

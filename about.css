@@ -1,0 +1,49 @@
+header
+{
+   font-family:serif;
+   text-align: center;
+}
+
+body{
+     background-image: url('aboutback.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+}
+
+p
+{
+    font-size: 20;
+    color:white;
+    font-family:sans-serif;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+    
+footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

@@ -1,0 +1,117 @@
+.content
+{
+  margin: auto;
+  display: block;
+  width:500px;
+  text-align:center;
+}
+
+body{
+     background-image: url('camp.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     background-color:#6abade
+}
+
+#find{
+        width: 400px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20px 0 0 450px;
+        padding: 80px;
+        background:transparent;
+        border-radius: 15px ;
+        
+    
+
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+    
+h1{
+    
+    color:black;
+    padding: 20px;
+    font-family:fantasy;
+    font-size:40px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+   
+}
+
+#tent{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 140px;
+}
+#tent_type{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 120px;
+
+}
+#search{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 10px;
+    color: black;
+    
+
+}
+
+#location{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 190px;
+    text-align: left;
+}
+
+#date{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 110px;
+}
+
+footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
